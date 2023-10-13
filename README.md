@@ -5,7 +5,7 @@ This application is for calculating the rewards of the customers based on the am
 Local Setup for running this application :
 1. Install JDK preferably Java 1.8 and set the JAVA_HOME path
 2. Install an IDE like STS or IntelliJ
-3. Install MySQL Workbench and set path variable in the system environment variables
+3. Install MySQL and set path variable in the system environment variables
 4. Install Postman
 5. Install Git
 
