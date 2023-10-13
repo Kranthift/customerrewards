@@ -3,24 +3,21 @@
 This application is for calculating the rewards of the customers based on the amount spent.
 
 Local Setup for running this application :
-1. Install JDK preferably Java 1.8
+1. Install JDK preferably Java 1.8 and set the JAVA_HOME path
 2. Install an IDE like STS or IntelliJ
-3. Install MySQL Workbench and MySQL command line client
-5. Install Postman
-6. Install Git
+3. Install MySQL Workbench and set path variable in the system environment variables
+4. Install Postman
+5. Install Git
 
-Steps for starting the application :
+Steps for starting the application:
 1. Start the MySQL server by configuring the Environmental variables.
-2. Copy the bin location path of MySQL server into the path section of system environmental variables.
-3. Start the MySQL command line client and provide the password.
-4. Password is in the application property file.
-5. Once the server starts create a schema with name "reward".
-6. Clone the code into local machine using git commands
-7. Import the code into any IDE and start the RewardsApplication.
-8. The application starts on port 9090.
-
- 
-
+2. Start the MySQL command line client and provide the password.
+3. Once the MySQL server starts create a schema with name "reward".
+4. Clone the code into local machine using git commands
+5. Import the code into any IDE.
+6. The application sever port is given 9090 this can be configured in application property file.
+7. Update the MySQL username and password in the application property file as per your system.
+8. Run the application.
 
 Postman Curls in Order :
 
